@@ -24,6 +24,9 @@
 .logo{
     width: 60px;
 }
+.plot{
+    width: 1000px;
+}
 .name{
     font-size: 30px;
     color: rgb(0,0,0);
