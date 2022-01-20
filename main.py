@@ -5,7 +5,7 @@
 import rpy2 #.robjects as robjects
 
 "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\R\R x64 4.1.1.lnk"
-"C:\Program Files\R\R-4.1.1\bin\x64"
+"C:\Program Files\R\R-4.1.1/bin/x64"
 """
 
 
