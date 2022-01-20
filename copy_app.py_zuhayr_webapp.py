@@ -109,7 +109,7 @@ def upload_file():
 #pytho -m venv venv
 #venv\Scripts\activate
 #localhost:5000  Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
-#copy_app.py_zuhayr_webapp.py
+#python copy_app.py_zuhayr_webapp.py
 
 if __name__ == "__main__":
     app.run(debug = True)
