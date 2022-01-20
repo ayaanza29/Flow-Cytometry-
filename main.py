@@ -9,3 +9,19 @@ import rpy2 #.robjects as robjects
 """
 
 
+from flask import Flask, flash, request, redirect, url_for, render_template
+import datetime
+import os
+import subprocess
+from werkzeug.utils import secure_filename
+
+UPLOAD_FOLDER = "C:/Users/rkhan/Desktop/Z Research Programming"
+ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif', 'fcs'}
+
+app = Flask(__name__, static_url_path='/static')
+app.config["Upload_Folder"] = UPLOAD_FOLDER
+
+
+@app.route("/")
+def index():
+    return render_template('index.html')
